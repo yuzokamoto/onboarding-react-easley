@@ -10,17 +10,26 @@ function retornaTamanhoArray(array) {
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+    return array.reverse()
 }
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+  return array.sort((a, b) => a - b)
 }
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+    // return array.filter((item) => {
+    //     if (item % 2 === 0){
+    //         return true
+    //     }else{
+    //         return false
+    //     }
+    // })
+
+    return array.filter((item) => item % 2 === 0)
+
 }
 
 // EXERCÍCIO 05
